@@ -1,0 +1,116 @@
+html{
+    size: auto;
+    font-size: 1.5rem;
+}
+
+body{
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    width: 1000px;
+  height: 950px;
+  margin: 0 auto;
+  
+    }
+
+/* --------UTILITIES-------- */
+        h1{
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: "Brush Script MT", cursive;
+        text-shadow: 4px 4px 5px rgb(255, 0, 0);
+        }
+
+        li{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: "Brush Script MT", cursive;
+            text-decoration: underline;
+            text-shadow: 4px 4px 5px rgb(255, 0, 0);
+        }
+
+p{
+    text-align: center;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  
+/* --------LINK--------- */
+
+        .link {
+            font-family: "Brush Script MT", cursive;
+            text-align: center;
+            flex: 1;
+            text-decoration: none;
+            outline: none;
+            text-align: center;
+            line-height: 3;
+            color: black;
+            color: firebrick;
+            font-size: 2.2rem;
+          }
+          
+          .link:link, .link:visited, .link:focus {
+            background: rgb(0, 0, 0);
+          }
+          
+          .link:hover {
+            background: rgb(255, 255, 255);
+          }
+          
+          .link:active {
+            background: red;
+            color: white;
+          }
+
+/* ----IMAGES-----*/
+
+    .mario {
+  width: 35%;
+          border-radius: 50%;
+          display: block;
+          margin-left: auto;
+  margin-right: auto;
+}
+
+    .cavera {
+        width: 55%;
+        display: block;
+          margin-left: 90%;
+          margin-right: auto;
+          margin-top: -60%;
+    }
+
+    .tens {
+        width: 39%;
+display: block;
+  margin-right: 100%;
+  margin-left: -40%;
+  margin-top: -35%;
+    }
